@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_GGDlsDisEeKZs7FZ25CYcA/23" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/pyegg/_GGDlsDisEeKZs7FZ25CYcA/23 uml_profiles/pyegg.profile.uml#_GGEMwDisEeKZs7FZ25CYcA">
+  <uml:Model xmi:id="_R7HUkVxNEeKVv8yd2BlAbA" name="Model">
+    <packageImport xmi:id="_R7HUklxNEeKVv8yd2BlAbA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_w0OE0FxPEeKVv8yd2BlAbA" name="c3s.api">
+      <ownedComment xmi:id="_UDYr0FxREeKVv8yd2BlAbA">
+        <body>This is a Web Service.</body>
+      </ownedComment>
+      <ownedComment xmi:id="_XCMUYFxTEeKVv8yd2BlAbA">
+        <body>Here is some data.</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KDzn0FxSEeKVv8yd2BlAbA" name="Services">
+        <packagedElement xmi:type="uml:Class" xmi:id="__Ed3UFxPEeKVv8yd2BlAbA" name="Service1">
+          <ownedAttribute xmi:id="_eiUI0FxREeKVv8yd2BlAbA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_l4wK4FxREeKVv8yd2BlAbA" name="path">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_rINSUFxREeKVv8yd2BlAbA" name="get_value"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_brHnUFxTEeKVv8yd2BlAbA" name="Data">
+        <packagedElement xmi:type="uml:Class" xmi:id="_smCQUFxTEeKVv8yd2BlAbA" name="DataModel1" clientDependency="_AFVhoFxUEeKVv8yd2BlAbA">
+          <ownedAttribute xmi:id="_xSuo8FxTEeKVv8yd2BlAbA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_1lI5UFxTEeKVv8yd2BlAbA" name="value1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_5U7k0FxTEeKVv8yd2BlAbA" name="flag1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_AFVhoFxUEeKVv8yd2BlAbA" name="Dependency1" supplier="__Ed3UFxPEeKVv8yd2BlAbA" client="_smCQUFxTEeKVv8yd2BlAbA"/>
+      </packagedElement>
+      <profileApplication xmi:id="_5Y3mcFxPEeKVv8yd2BlAbA">
+        <eAnnotations xmi:id="_5ZhtwFxPEeKVv8yd2BlAbA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="uml_profiles/pyegg.profile.uml#_GGEMwDisEeKZs7FZ25CYcA"/>
+        </eAnnotations>
+        <appliedProfile href="uml_profiles/pyegg.profile.uml#_HHBJsNqqEd6cif0axL0c4w"/>
+      </profileApplication>
+    </packagedElement>
+  </uml:Model>
+  <pyegg:pyegg xmi:id="_6qEvoFxPEeKVv8yd2BlAbA" base_Package="_w0OE0FxPEeKVv8yd2BlAbA"/>
+  <pyegg:pymodule xmi:id="_W5vYcFxSEeKVv8yd2BlAbA" base_Package="_KDzn0FxSEeKVv8yd2BlAbA"/>
+  <pyegg:pymodule xmi:id="_hFHK0FxTEeKVv8yd2BlAbA" base_Package="_brHnUFxTEeKVv8yd2BlAbA"/>
+</xmi:XMI>
